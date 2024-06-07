@@ -2,7 +2,7 @@
 
 # add the create function
 
-def add_contact(name, phone, contacts):
+def add_contact(name, phone):
     try:
         if name != str and phone != int:
             raise TypeError('name must be a string and number must be a number')
