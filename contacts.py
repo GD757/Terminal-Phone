@@ -1,9 +1,5 @@
 
 
-contacts = {
-    "name": 123456789,
-}
-
 # add the create function
 
 def add_contact(name, phone, contacts):
